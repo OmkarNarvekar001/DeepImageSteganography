@@ -156,7 +156,7 @@ def hide(url):
 
     # plot stego-image output (container image)
     imageio.imsave('./hidden.jpg',coverout)
-    s3 = boto3.client("s3",aws_access_key_id='AKIAVQTYULZTFHK3F3PA',aws_secret_access_key= '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')
+    s3 = boto3.client("s3",aws_access_key_id='',aws_secret_access_key= '')
 
     with open('hidden.jpg', 'rb') as data:
         s3.upload_fileobj(data, 'be-project-2023','hidden_image.jpg')
