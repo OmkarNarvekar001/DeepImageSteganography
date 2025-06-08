@@ -5,3 +5,5 @@ Secure data transfer through internet has become highly important because of the
 B.E Project
 
 Group members- Rishabh Patil, Omkar Narvekar, Bhagawatiraj Yadav
+
+Publication - https://link.springer.com/chapter/10.1007/978-981-99-9040-5_5
